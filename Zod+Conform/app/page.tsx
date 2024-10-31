@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
+import { SubmitButton } from '@/components/SubmitButton';
 import {
   Card,
   CardContent,
@@ -99,14 +99,7 @@ export default function Home() {
                 {field.password.errors}
               </p>
             </div>
-            <Button
-              variant="default"
-              size="lg"
-              type="submit"
-              className="w-full font-bold tracking-wider"
-            >
-              Create Account
-            </Button>
+            <SubmitButton />
           </Form>
         </CardContent>
       </Card>
