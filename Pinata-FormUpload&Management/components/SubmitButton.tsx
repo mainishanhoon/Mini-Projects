@@ -11,7 +11,7 @@ export function SubmitButton() {
     <>
       {pending ? (
         <Button disabled variant="outline">
-          <Loader className="mr-2 size-6 animate-spin" />
+          <Loader className="mr-2 size-6 animate-spin [animation-duration:3s]" />
           Submitting...
         </Button>
       ) : (
